@@ -1,12 +1,8 @@
-import React from 'react';
-
-function Home() {
+export default function Home() {
   return (
-    <div className="text-center mt-10">
-      <h1 className="text-3xl font-bold">🚨 SOS - User Page</h1>
-      <p>Welcome to the Emergency Help page.</p>
+    <div className="text-center p-10 text-xl">
+      <h1 className="text-3xl font-bold text-blue-600">🚨 SOS – Emergency Help</h1>
+      <p className="mt-4">This is the user emergency screen.</p>
     </div>
   );
 }
-
-export default Home;
