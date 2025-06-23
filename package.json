@@ -1,1 +1,12 @@
-{"name":"cloudbridge","version":"1.0.0","main":"index.js","license":"MIT","devDependencies":{"autoprefixer":"^10.4.21","postcss":"^8.5.6","tailwindcss":"^4.1.10"}}
+{
+  "name": "cloudbridge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
