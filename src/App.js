@@ -7,9 +7,9 @@ function App() {
   return (
     <Router>
       <Routes>
+        <Route path="/" element={<h1 className="text-center mt-20 text-3xl">🌐 Welcome to CloudBridge</h1>} />
         <Route path="/user" element={<Home />} />
         <Route path="/admin" element={<Dashboard />} />
-        <Route path="/" element={<h1 className="text-3xl text-center mt-20">🌐 Welcome to CloudBridge</h1>} />
       </Routes>
     </Router>
   );
