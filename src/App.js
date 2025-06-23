@@ -1,7 +1,6 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/user/Home';
-import Dashboard from './pages/admin/Dashboard';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/user/Home";
+import Dashboard from "./pages/admin/Dashboard";
 
 function App() {
   return (
