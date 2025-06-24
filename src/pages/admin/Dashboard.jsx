@@ -1,8 +1,11 @@
-export default function Dashboard() {
+function App() {
   return (
-    <div className="min-h-screen bg-gray-100 p-10">
-      <h1 className="text-2xl font-bold mb-6 text-gray-800">🛠️ Admin Dashboard</h1>
-      <p>Monitor live data here.</p>
+    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+      <h1 className="text-4xl font-bold text-blue-600">
+        🎉 Tailwind is working!
+      </h1>
     </div>
   );
 }
+
+export default App;
