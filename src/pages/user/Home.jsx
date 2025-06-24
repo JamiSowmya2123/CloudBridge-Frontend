@@ -1,10 +1,10 @@
-export default function Home() {
+import React from 'react';
+
+export default function UserDashboard() {
   return (
-    <div className="min-h-screen bg-red-100 flex justify-center items-center">
-      <div className="text-center">
-        <h1 className="text-3xl text-red-600 font-bold">🚨 Emergency SOS</h1>
-        <p className="mt-4">This is the user emergency interface.</p>
-      </div>
+    <div className="min-h-screen flex flex-col items-center justify-center bg-white">
+      <h1 className="text-3xl font-bold text-green-600">👤 User Dashboard</h1>
+      <p className="text-gray-700 mt-4">Welcome, User! Here you can request help during disasters.</p>
     </div>
   );
 }
