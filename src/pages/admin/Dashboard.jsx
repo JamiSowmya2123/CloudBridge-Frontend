@@ -1,11 +1,9 @@
-function App() {
+import React from 'react';
+
+export default function AdminDashboard() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <h1 className="text-4xl font-bold text-blue-600">
-        🎉 Tailwind is working!
-      </h1>
+    <div className="text-center mt-10 text-red-600 text-2xl">
+      🛠️ Admin Dashboard: Manage Requests
     </div>
   );
 }
-
-export default App;
